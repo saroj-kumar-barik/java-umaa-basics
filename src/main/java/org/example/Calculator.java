@@ -11,4 +11,14 @@ public class Calculator {
         System.out.println("Result of Subtraction is : "+result);
 
     }
+
+    public static void multiplication(){
+        int mulresult = 10 * 2;
+        System.out.println("Multiplication result is : "+mulresult);
+    }
+
+    public void division(){
+        int mulresult = 10 / 2;
+        System.out.println("Multiplication result is : "+mulresult);
+    }
 }
