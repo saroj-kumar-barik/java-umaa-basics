@@ -1,4 +1,4 @@
-package org.example;
+package org.methods;
 
 public class CalculatorMain {
     public static void main(String[] args) {

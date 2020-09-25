@@ -1,6 +1,6 @@
-package org.example;
+package org.blocks;
 
-public class KeyWordsDemo {
+public class BlocksDemo {
     static int a;
 
         static {  // static block
@@ -20,8 +20,8 @@ public class KeyWordsDemo {
         public static void main(String[] miki) { // instead of" args" we can use "any parameter name"
 //        String names[] ={"Suman","MIKI"};
 
-            new KeyWordsDemo(); // creating instance of the class
-            new KeyWordsDemo();
+            new BlocksDemo(); // creating instance of the class
+            new BlocksDemo();
 
             System.out.println(miki.length); // ctrl shift upArrow
             if (miki.length == 0){

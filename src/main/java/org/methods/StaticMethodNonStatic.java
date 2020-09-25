@@ -1,4 +1,4 @@
-package org.example;
+package org.methods;
 
 
 public class StaticMethodNonStatic {

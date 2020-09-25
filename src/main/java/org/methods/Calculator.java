@@ -1,9 +1,9 @@
-package org.example;
+package org.methods;
 
 public class Calculator {
 
     public static void sum(){
-        int result = 10 + 20;
+        int result = 10 + 20 ;
         System.out.println("Result of sum is : "+result);
     }
     public void subtract(){
