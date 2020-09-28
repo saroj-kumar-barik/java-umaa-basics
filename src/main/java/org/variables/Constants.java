@@ -5,7 +5,7 @@ public class Constants {
     public final int dateOfBirthYear ;
 
     static {
-        myName = "Sarooj Kumar";
+        myName = "Saroj Kumar";
         System.out.println(myName);
         // myName = "Bablu"; not possible to modify final(constant variable) also called class constant
     }
