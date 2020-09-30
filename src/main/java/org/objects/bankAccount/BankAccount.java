@@ -1,4 +1,4 @@
-package org.objects;
+package org.objects.bankAccount;
 
 public class BankAccount {
     // Declaring fields as private

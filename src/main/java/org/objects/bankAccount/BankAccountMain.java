@@ -1,4 +1,6 @@
-package org.objects;
+package org.objects.bankAccount;
+
+import org.objects.bankAccount.BankAccount;
 
 public class BankAccountMain {
     public static void main(String[] args) {
