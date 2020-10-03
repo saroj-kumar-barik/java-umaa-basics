@@ -7,12 +7,14 @@ public class VariablesDemo {
 
     static {
         // declaring & assigning value to variable
+
         String variable = "Bablu";  // scope of this variable inside the block only
 
         System.out.println("Variable inside static block : "+variable);
 
         var1 = 10;
-        System.out.println("Assigning value to static variable inside static block : "+var1) ;
+        System.out.println("Assigning value to static variable inside static block : "+var1);
+
         // var = 20; // Not possible
     }
 

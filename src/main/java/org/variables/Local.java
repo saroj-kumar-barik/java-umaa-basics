@@ -8,6 +8,7 @@ public class Local {
         System.out.println(a);
 
         int b ;
+
 //        System.out.println(b); // local variable must be initialised
     }
 
