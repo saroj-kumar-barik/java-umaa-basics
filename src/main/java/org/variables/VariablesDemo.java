@@ -12,7 +12,7 @@ public class VariablesDemo {
         System.out.println("Variable inside static block : "+variable);
 
         var1 = 10;
-        System.out.println("Assigning value to static variable inside static block : "+var1);
+        System.out.println("Assigning value to static variable inside static block : "+var1) ;
         // var = 20; // Not possible
     }
 

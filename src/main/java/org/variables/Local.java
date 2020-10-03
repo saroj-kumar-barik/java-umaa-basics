@@ -1,6 +1,7 @@
 package org.variables;
 
 public class Local {
+
     {
         int a;
         a = 10;

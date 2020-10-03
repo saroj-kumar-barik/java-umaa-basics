@@ -1,7 +1,6 @@
 package org.variables;
 
 public class Constants {
-    
     public static final String myName ;
     public final int dateOfBirthYear ;
 
