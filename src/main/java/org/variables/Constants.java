@@ -14,7 +14,7 @@ public class Constants {
     {
         dateOfBirthYear = 1997;
         System.out.println(dateOfBirthYear);
-        // dateOfBirthYear = 1998; not possible to modify final(constant variable) also called instance constant
+        // dateOfBirthYear = 1998; not possible to modify final(constant) variable also called instance constant
     }
 
     public static void main(String[] args) {
