@@ -26,4 +26,14 @@ public class ComplexNumbers {
         this.imaginaryPart = numbers.imaginaryPart + this.imaginaryPart;
     }
 
+    public void subtract(double realPart, double imaginaryPart){
+        this.realPart = this.realPart - realPart ;
+        this.imaginaryPart = this.imaginaryPart - imaginaryPart ;
+    }
+
+    public void subtract(ComplexNumbers numbers){
+        this.realPart = numbers.realPart - this.realPart;
+        this.imaginaryPart = numbers.imaginaryPart - this.imaginaryPart;
+    }
+
 }
