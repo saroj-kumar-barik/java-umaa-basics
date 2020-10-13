@@ -693,3 +693,210 @@ public class Test
             t.m1(); // this line creat nullPointerException
       }
 }*/
+
+// TODO Activity on Constructors
+   // Activity -1
+/*
+public class Test{
+    private String carModel;
+    private int gear;
+    private int topSpeed;
+
+    public Test(String carModel, int gear, int topSpeed) {// parameterized constructor
+        this(carModel); // invoking constructor using this.
+        this.gear = gear;
+        this.topSpeed = topSpeed;
+    }
+
+    public Test(String carModel) { // one param constructor
+        this.carModel = carModel;
+    }
+
+    @Override
+    public String toString() {
+        return "Test{" +
+                "carModel='" + carModel + '\'' +
+                ", gear=" + gear +
+                ", topSpeed=" + topSpeed +
+                '}';
+    }
+
+    public static void main(String[] args) {
+        Test test = new Test("mercedise Benz 330d",6,300);
+        System.out.println("after initializing the fields...");
+        String result = test.toString();
+        System.out.println(result);
+    }
+}*/
+
+//public class Test {
+//    public static void main(String[] args) {
+//        A a = new A(10, 20);
+//        a.setK(400);
+//        System.out.println(a);
+//    }
+//}
+//
+//class A {
+//    private int i;
+//    private int j;
+//    private int k;
+//
+//    public A(int i, int j) {
+//        this.i = i;
+//        this.j = j;
+//    }
+//
+//    public int getI() {
+//        return i;
+//    }
+//
+//    public void setI(int i) {
+//        this.i = i;
+//    }
+//
+//    public int getJ() {
+//        return j;
+//    }
+//
+//    public void setJ(int j) {
+//        this.j = j;
+//    }
+//
+//    public int getK() {
+//        return k;
+//    }
+//
+//    public void setK(int k) {
+//        this.k = k;
+//    }
+//
+//    @Override
+//    public String toString() {
+//        return "A{" +
+//                "i=" + i +
+//                ", j=" + j +
+//                ", k=" + k +
+//                '}';
+//    }
+//}
+
+//public class Test {
+//    public static void main(String[] args) {
+//        A a = new A();
+//    }
+//}
+//class A
+//{
+//    private int x =11;
+//    public A()
+//    {
+//        new A(10);
+//    }
+//
+//    public A(int x)
+//    {
+//        this();
+//        this.x = x;
+//    }
+//}
+
+//public class Test {
+//    public static void main(String[] args) {
+//        A a = new A();
+//        System.out.println(a.hashValue == a.hashCode());
+//    }
+//}
+//
+//class A
+//{
+//    public int i;
+//    public int hashValue;
+//    public A()
+//    {
+//        this(10);
+//    }
+//
+//    public A(int x)
+//    {
+//        this.i = x;
+//        this.hashValue = this.hashCode();
+//    }
+//}
+
+//public class Test {
+//    public static void main(String[] args) {
+//        A a = new A();
+//    }
+//}
+//
+//class A
+//{
+//    private int x =11;
+//    public A()
+//    {
+//        this(10);
+//        if(x % 2 == 0)
+//        {
+//            System.out.println("even");
+//        }
+//        else
+//        {
+//            System.out.println("odd");
+//        }
+//    }
+//
+//    public A(int x)
+//    {
+//        this.x = x;
+//    }
+//}
+
+//class A
+//{
+//    public A()
+//    {
+//        new A();
+//    }
+//
+//    public static void main(String[] args) {
+//        new A();
+//    }
+//}
+
+import java.util.Scanner;
+class Student {
+    private String name;
+    private int age;
+    public int getAge() {
+        return age;
+    }
+    public void setAge(int age) {
+        this.age = age;
+    }
+    public String getName() {
+        return name;
+    }
+    public void setName(String name) {
+        this.name = name;
+    }
+    public void display() {
+        System.out.println("name: "+getName());
+        System.out.println("age: "+getAge());
+    }
+}
+public class Test{
+    public static void main(String args[]) {
+        //Reading values from user
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the name of the student: ");
+        String name = sc.nextLine();
+        System.out.println("Enter the age of the student: ");
+        int age = sc.nextInt();
+        //Calling the setter and getter methods
+        Student obj = new Student();
+        obj.setName(name);
+        obj.setAge(age);
+        obj.display();
+    }
+}
