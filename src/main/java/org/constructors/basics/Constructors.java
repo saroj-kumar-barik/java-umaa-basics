@@ -1,4 +1,4 @@
-package org.constructors;
+package org.constructors.basics;
 
 public class Constructors {
     public int a, b;
