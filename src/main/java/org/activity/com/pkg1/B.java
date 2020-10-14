@@ -6,7 +6,7 @@ public class B {
 //        System.out.println(a.i); // private access so not accessible
         System.out.println(a.getI());
         System.out.println(a.j);
-        System.out.println(a.l);
+//        System.out.println(a.l);
         System.out.println(a.k); // why this is accessible?
     }
 }
