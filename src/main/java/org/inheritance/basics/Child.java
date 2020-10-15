@@ -1,4 +1,4 @@
-package org.inheritance;
+package org.inheritance.basics;
 
 public class Child extends Parent {
     public int j ;
