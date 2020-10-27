@@ -6,7 +6,7 @@ public class InheritanceMain {
         System.out.println("using parent obj and refVar " + p1.i); // invoke parent field
 
         p1 = new Child();
-        System.out.println("using child obj amd parent refVAr " + p1.i); // invoke parent field as refVar is of type
+        System.out.println("using child obj and parent refVAr " + p1.i); // invoke parent field as refVar is of type
         // Parent
 
         Child c1 = new Child();
